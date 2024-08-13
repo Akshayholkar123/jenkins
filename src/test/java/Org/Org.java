@@ -9,6 +9,7 @@ public class Org {
 		String browser=System.getProperty("browser");
 		System.out.println(browser);
 		System.out.println("regression testing");
+		System.out.println("soni");
 	}
 	
 	@Test(groups = "smoke")
