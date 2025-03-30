@@ -16,6 +16,7 @@ public class Org {
         System.out.println("Browser: " + browser);
         System.out.println("Regression testing");
         System.out.println("Holkar");
+        System.out.println("latest updated");
 
         // Launch browser based on the system property
         if (browser.equalsIgnoreCase("chrome")) {
