@@ -11,7 +11,7 @@ public class OrgTest {
     WebDriver driver;
 
     @Test(groups = "regression")
-    public void org() {
+    public void orgTest() {
         String browser = System.getProperty("browser", "chrome"); // Default to Chrome
         System.out.println("Browser: " + browser);
         System.out.println("Regression testing");
@@ -35,7 +35,7 @@ public class OrgTest {
     }
 
     @Test(groups = "smoke")
-    public void createorg() {
+    public void createorgTest() {
         String browser = System.getProperty("browser", "chrome");
         System.out.println("Browser: " + browser);
         System.out.println("Smoke testing");
